@@ -4,19 +4,93 @@
     box-sizing : border-box ;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color:rgba(128, 128, 128, 0.256);
+}
 
 .container {
     position: relative;
-    top: 10vh;
-    display : flex ;
-    flex-direction: row; 
+    top: 7vh;
+    left: 10vw;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: white;
+    border: 10px solid rgba(255, 255, 255, 0.495);
+    border-radius: 35px;
+    padding: 30px;
+    width: 80vw;
+    height: 98vh;
 }
 
 .column1{
     display:flex ;
     flex-direction: column ; 
     flex-wrap: wrap;
+    padding:20px; 
+    width:35vw;
+}
 
+.column1 header{
+    margin-top: 10px; 
+    margin-bottom: 20px;
+    width: 30vw; 
+    font-size: 3rem;
+    font-weight: 700;
+}
+.column1 .lists {
+    margin: 15px 0px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.column1 .lists span{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap; 
+    margin: 5px 0px;
+}
+.column1 .lists span img{
+    margin-right:10px;
+}
+.column1 form{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+    width:30vw;
+}
+.column1 label{
+    font-weight: 700; 
+    margin-bottom: 10px; 
+}
+.column1 input{
+    padding:15px;
+    border:1px solid rgba(128, 128, 128, 0.411);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.column1 .btn{
+    margin-top:10px;
+}
+.column1 .btn a{
+    text-align: center;
+    display: block;
+    color: white;
+    font-weight:700;
+    text-decoration: none;
+    background-color: black; 
+    border-radius:5px;
+    padding: 20px;
+    width:30vw;
+}
+
+.column2{
+    margin-left:25px;
+}
+
+.column2 .image{
+    width: 30vw;
+    height:80vh
 }
